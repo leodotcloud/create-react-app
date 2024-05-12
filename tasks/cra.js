@@ -37,6 +37,7 @@ const handleError = e => {
 process.on('SIGINT', handleExit);
 process.on('uncaughtException', handleError);
 
+console.log('XYZXYZXYZ');
 console.log();
 console.log('-------------------------------------------------------');
 console.log('Assuming you have already run `npm install` to update the deps.');
